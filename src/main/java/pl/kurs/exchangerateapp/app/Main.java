@@ -1,14 +1,14 @@
-package pl.kurs;
+package pl.kurs.exchangerateapp.app;
 
 import org.json.simple.parser.ParseException;
-import pl.kurs.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
-import pl.kurs.interfaces.ICurrencyService;
-import pl.kurs.interfaces.IRateService;
-import pl.kurs.interfaces.IUrlStringBuilder;
-import pl.kurs.service.ApiConnectionService;
-import pl.kurs.service.CurrencyService;
-import pl.kurs.service.RateService;
-import pl.kurs.service.UrlStringBuilder;
+import pl.kurs.exchangerateapp.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
+import pl.kurs.exchangerateapp.interfaces.ICurrencyService;
+import pl.kurs.exchangerateapp.interfaces.IUrlStringBuilder;
+import pl.kurs.exchangerateapp.service.ApiConnectionService;
+import pl.kurs.exchangerateapp.interfaces.IRateService;
+import pl.kurs.exchangerateapp.service.CurrencyService;
+import pl.kurs.exchangerateapp.service.RateService;
+import pl.kurs.exchangerateapp.service.UrlStringBuilder;
 
 import java.io.IOException;
 import java.util.Scanner;

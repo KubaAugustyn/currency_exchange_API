@@ -1,4 +1,4 @@
-package pl.kurs.exceptions;
+package pl.kurs.exchangerateapp.exceptions;
 
 public class TheEnteredAmountOfMoneyMustBeGreaterThan0Exception extends Exception {
 

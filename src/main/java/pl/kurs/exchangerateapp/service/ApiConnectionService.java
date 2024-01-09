@@ -1,10 +1,10 @@
-package pl.kurs.service;
+package pl.kurs.exchangerateapp.service;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import pl.kurs.interfaces.ApiConfig;
-import pl.kurs.interfaces.IUrlStringBuilder;
+import pl.kurs.exchangerateapp.interfaces.IUrlStringBuilder;
+import pl.kurs.exchangerateapp.interfaces.ApiConfig;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

@@ -1,12 +1,12 @@
-package pl.kurs.service;
+package pl.kurs.exchangerateapp.service;
 
 import okhttp3.Response;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import pl.kurs.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
-import pl.kurs.interfaces.IRateService;
-import pl.kurs.interfaces.IUrlStringBuilder;
+import pl.kurs.exchangerateapp.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
+import pl.kurs.exchangerateapp.interfaces.IRateService;
+import pl.kurs.exchangerateapp.interfaces.IUrlStringBuilder;
 
 import java.io.IOException;
 

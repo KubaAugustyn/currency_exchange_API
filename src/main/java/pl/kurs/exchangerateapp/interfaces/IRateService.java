@@ -1,6 +1,6 @@
-package pl.kurs.interfaces;
+package pl.kurs.exchangerateapp.interfaces;
 
-import pl.kurs.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
+import pl.kurs.exchangerateapp.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;

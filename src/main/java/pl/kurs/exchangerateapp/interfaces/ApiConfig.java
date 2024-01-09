@@ -1,4 +1,4 @@
-package pl.kurs.interfaces;
+package pl.kurs.exchangerateapp.interfaces;
 
 public interface ApiConfig {
 

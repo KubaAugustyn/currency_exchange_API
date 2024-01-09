@@ -4,11 +4,11 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import pl.kurs.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
+import pl.kurs.exchangerateapp.exceptions.TheEnteredAmountOfMoneyMustBeGreaterThan0Exception;
 
-import pl.kurs.interfaces.ICurrencyService;
-import pl.kurs.interfaces.IRateService;
-import pl.kurs.service.CurrencyService;
+import pl.kurs.exchangerateapp.interfaces.ICurrencyService;
+import pl.kurs.exchangerateapp.interfaces.IRateService;
+import pl.kurs.exchangerateapp.service.CurrencyService;
 
 import java.io.IOException;
 
